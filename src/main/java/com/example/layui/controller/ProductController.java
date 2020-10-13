@@ -22,7 +22,7 @@ public class ProductController {
     public String list(){
 
         QueryWrapper queryWrapper=new QueryWrapper();
-        queryWrapper.eq("id", 733);
+        queryWrapper.eq("id", 737);
         List list = productMapper.selectList(queryWrapper);
         String s = JSON.toJSONString(list);
 
